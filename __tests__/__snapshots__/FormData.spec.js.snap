@@ -1,0 +1,609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormData screenshot test 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <Form
+      hideRequiredMark={false}
+      layout="vertical"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <section>
+          <FormEntry
+            fieldName="firstName"
+            form={Object {}}
+            formEntryType="input"
+            formItemProperties={
+              Object {
+                "labelCol": Object {
+                  "span": 23,
+                },
+                "wrapperCol": Object {
+                  "span": 23,
+                },
+              }
+            }
+            initialValue="Danny Hoower"
+            inputProps={
+              Object {
+                "disabled": true,
+              }
+            }
+          />
+        </section>
+        <section>
+          <FormEntry
+            fieldName="lastName"
+            form={Object {}}
+            formEntryType="input"
+            formItemProperties={
+              Object {
+                "labelCol": Object {
+                  "span": 23,
+                },
+                "wrapperCol": Object {
+                  "span": 23,
+                },
+              }
+            }
+            initialValue="Viasus Avila"
+            inputProps={
+              Object {
+                "disabled": true,
+              }
+            }
+          />
+        </section>
+        <section>
+          <FormEntry
+            fieldName="emailAddress"
+            form={Object {}}
+            formEntryType="input"
+            formItemProperties={
+              Object {
+                "labelCol": Object {
+                  "span": 23,
+                },
+                "wrapperCol": Object {
+                  "span": 23,
+                },
+              }
+            }
+            initialValue="email@exmaple.com"
+            inputProps={
+              Object {
+                "disabled": true,
+              }
+            }
+          />
+        </section>
+        <section>
+          <FormEntry
+            fieldName="phoneMobile"
+            form={Object {}}
+            formEntryType="input"
+            formItemProperties={
+              Object {
+                "labelCol": Object {
+                  "span": 23,
+                },
+                "wrapperCol": Object {
+                  "span": 23,
+                },
+              }
+            }
+            initialValue="573227808655"
+            inputProps={
+              Object {
+                "disabled": true,
+              }
+            }
+          />
+        </section>
+      </div>
+    </Form>
+  </div>,
+  "nodes": Array [
+    <div>
+      <Form
+        hideRequiredMark={false}
+        layout="vertical"
+        onSubmit={[Function]}
+        prefixCls="ant-form"
+      >
+        <div
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          <section>
+            <FormEntry
+              fieldName="firstName"
+              form={Object {}}
+              formEntryType="input"
+              formItemProperties={
+                Object {
+                  "labelCol": Object {
+                    "span": 23,
+                  },
+                  "wrapperCol": Object {
+                    "span": 23,
+                  },
+                }
+              }
+              initialValue="Danny Hoower"
+              inputProps={
+                Object {
+                  "disabled": true,
+                }
+              }
+            />
+          </section>
+          <section>
+            <FormEntry
+              fieldName="lastName"
+              form={Object {}}
+              formEntryType="input"
+              formItemProperties={
+                Object {
+                  "labelCol": Object {
+                    "span": 23,
+                  },
+                  "wrapperCol": Object {
+                    "span": 23,
+                  },
+                }
+              }
+              initialValue="Viasus Avila"
+              inputProps={
+                Object {
+                  "disabled": true,
+                }
+              }
+            />
+          </section>
+          <section>
+            <FormEntry
+              fieldName="emailAddress"
+              form={Object {}}
+              formEntryType="input"
+              formItemProperties={
+                Object {
+                  "labelCol": Object {
+                    "span": 23,
+                  },
+                  "wrapperCol": Object {
+                    "span": 23,
+                  },
+                }
+              }
+              initialValue="email@exmaple.com"
+              inputProps={
+                Object {
+                  "disabled": true,
+                }
+              }
+            />
+          </section>
+          <section>
+            <FormEntry
+              fieldName="phoneMobile"
+              form={Object {}}
+              formEntryType="input"
+              formItemProperties={
+                Object {
+                  "labelCol": Object {
+                    "span": 23,
+                  },
+                  "wrapperCol": Object {
+                    "span": 23,
+                  },
+                }
+              }
+              initialValue="573227808655"
+              inputProps={
+                Object {
+                  "disabled": true,
+                }
+              }
+            />
+          </section>
+        </div>
+      </Form>
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <FormData
+        form={Object {}}
+        questions={
+          Array [
+            Object {
+              "fieldName": "firstName",
+              "formEntryType": "input",
+              "initialValue": "Danny Hoower",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+            Object {
+              "fieldName": "lastName",
+              "formEntryType": "input",
+              "initialValue": "Viasus Avila",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+            Object {
+              "fieldName": "emailAddress",
+              "formEntryType": "input",
+              "initialValue": "email@exmaple.com",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+            Object {
+              "fieldName": "phoneMobile",
+              "formEntryType": "input",
+              "initialValue": "573227808655",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+          ]
+        }
+      />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": FormData {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "form": Object {},
+          "questions": Array [
+            Object {
+              "fieldName": "firstName",
+              "formEntryType": "input",
+              "initialValue": "Danny Hoower",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+            Object {
+              "fieldName": "lastName",
+              "formEntryType": "input",
+              "initialValue": "Viasus Avila",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+            Object {
+              "fieldName": "emailAddress",
+              "formEntryType": "input",
+              "initialValue": "email@exmaple.com",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+            Object {
+              "fieldName": "phoneMobile",
+              "formEntryType": "input",
+              "initialValue": "573227808655",
+              "inputProps": Object {
+                "disabled": true,
+              },
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <Form
+            hideRequiredMark={false}
+            layout="vertical"
+            onSubmit={[Function]}
+            prefixCls="ant-form"
+          >
+            <div
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            >
+              <section>
+                <FormEntry
+                  fieldName="firstName"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="Danny Hoower"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <FormEntry
+                  fieldName="lastName"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="Viasus Avila"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <FormEntry
+                  fieldName="emailAddress"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="email@exmaple.com"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <FormEntry
+                  fieldName="phoneMobile"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="573227808655"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+            </div>
+          </Form>
+        </div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <Form
+            hideRequiredMark={false}
+            layout="vertical"
+            onSubmit={[Function]}
+            prefixCls="ant-form"
+          >
+            <div
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            >
+              <section>
+                <FormEntry
+                  fieldName="firstName"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="Danny Hoower"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <FormEntry
+                  fieldName="lastName"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="Viasus Avila"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <FormEntry
+                  fieldName="emailAddress"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="email@exmaple.com"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+              <section>
+                <FormEntry
+                  fieldName="phoneMobile"
+                  form={Object {}}
+                  formEntryType="input"
+                  formItemProperties={
+                    Object {
+                      "labelCol": Object {
+                        "span": 23,
+                      },
+                      "wrapperCol": Object {
+                        "span": 23,
+                      },
+                    }
+                  }
+                  initialValue="573227808655"
+                  inputProps={
+                    Object {
+                      "disabled": true,
+                    }
+                  }
+                />
+              </section>
+            </div>
+          </Form>
+        </div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <FormData
+    form={Object {}}
+    questions={
+      Array [
+        Object {
+          "fieldName": "firstName",
+          "formEntryType": "input",
+          "initialValue": "Danny Hoower",
+          "inputProps": Object {
+            "disabled": true,
+          },
+        },
+        Object {
+          "fieldName": "lastName",
+          "formEntryType": "input",
+          "initialValue": "Viasus Avila",
+          "inputProps": Object {
+            "disabled": true,
+          },
+        },
+        Object {
+          "fieldName": "emailAddress",
+          "formEntryType": "input",
+          "initialValue": "email@exmaple.com",
+          "inputProps": Object {
+            "disabled": true,
+          },
+        },
+        Object {
+          "fieldName": "phoneMobile",
+          "formEntryType": "input",
+          "initialValue": "573227808655",
+          "inputProps": Object {
+            "disabled": true,
+          },
+        },
+      ]
+    }
+  />,
+}
+`;
