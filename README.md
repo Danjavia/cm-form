@@ -21,6 +21,7 @@ run `npm i @comparamejor/cm-form -S`
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import FormData from '@comparamejor/cm-form';
+import 'antd/dist/antd.css';
 import questions from './questions'; // Is array of the question passed to the antd form
 
 class Form extends Component {

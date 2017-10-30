@@ -21,28 +21,54 @@ const questions = data => [
     },
   },
   {
-    formEntryType: 'input',
-    fieldName: 'lastName',
-    initialValue: `${data.firstSurename} ${data.secondSurename}`,
-    inputProps: {
-      disabled: true,
-    },
+    formEntryType: 'select',
+    fieldName: 'city',
+    options: [
+      {
+        name: 'Bogota', value: 'bogota'
+      },
+      {
+        name: 'Tunja', value: 'tunja',
+      },
+      {
+        name: 'vali', value: 'cali'
+      }
+    ]
   },
   {
-    formEntryType: 'input',
-    fieldName: 'emailAddress',
-    initialValue: data.emailAddress,
-    inputProps: {
-      disabled: true,
-    },
+    formEntryType: 'datepicker',
+    fieldName: 'datetime',
   },
   {
-    formEntryType: 'input',
+    formEntryType: 'radioGroup',
     fieldName: 'phoneMobile',
-    initialValue: data.mobilePhone,
-    inputProps: {
-      disabled: true,
-    },
+    options: [
+      {
+        name: 'Bogota', value: 'bogota'
+      },
+      {
+        name: 'Tunja', value: 'tunja',
+      },
+      {
+        name: 'vali', value: 'cali'
+      }
+    ]
+  },
+  {
+    formEntryType: 'radioGroup',
+    fieldName: 'phoneMobile',
+    vertical: true,
+    options: [
+      {
+        name: 'Bogota', value: 'bogota'
+      },
+      {
+        name: 'Tunja', value: 'tunja',
+      },
+      {
+        name: 'vali', value: 'cali'
+      }
+    ]
   },
 ];
 

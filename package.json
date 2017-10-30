@@ -1,6 +1,6 @@
 {
   "name": "@comparamejor/cm-form",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "Easy antd forms managements for little and large projects",
   "main": "FormData.js",
   "author": "comparamejor",
